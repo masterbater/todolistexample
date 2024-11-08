@@ -14,8 +14,14 @@ WORKDIR /var/www/html
 # Copy the application files into the container's working directory
 COPY . /var/www/html/
 
+USER www-data
+
+RUN php /var/www/html/db_init.php
+
+# Set the correct ownership and permissions for db.sqlite file
+RUN chown www-data:www-data /var/www/html/db.sqlite
+RUN chmod 775 /var/www/html/db.sqlite
+
+
 # Expose the port the app will run on
 EXPOSE 80
-
-# The command to run when the container starts
-CMD ["apache2-foreground"]
