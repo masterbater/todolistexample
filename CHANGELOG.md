@@ -1,5 +1,12 @@
 
 
+## [1.0.2](https://github.com/masterbater/todolistexample/compare/1.0.1...1.0.2) (2024-11-08)
+
+
+### Chores
+
+* **ci:** Update Release flow ([86976f6](https://github.com/masterbater/todolistexample/commit/86976f6c322ba27cc923e3f699b8ceba9f4ae85d))
+
 ## 1.0.1 (2024-11-08)
 
 ### Features

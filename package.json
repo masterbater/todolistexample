@@ -8,7 +8,7 @@
     "release-it": "^17.4.1"
   },
   "name": "noframeworktodo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a simple to-do list application built using PHP (without frameworks), SQLite, JavaScript, and Tailwind CSS. The application allows users to add, view, delete, and complete tasks, as well as prioritize tasks.",
   "author": "",
   "license": "ISC"
