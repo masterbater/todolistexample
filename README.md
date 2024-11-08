@@ -56,6 +56,9 @@ The endpoints for the tasks:
 - **DELETE /api.php?id={id}** - Deletes a task by ID
 - **PUT /api.php** - Updates a task's completed status (parameters: `id`, `completed`)
 
+## Release and Changelogs
+- **Release it** - Simple release process and changelogs
+
 ## How to Use
 
 1. **Add a Task**: Enter a task name and priority, then click "Add Task."
